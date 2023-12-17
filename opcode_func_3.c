@@ -55,7 +55,8 @@ void monty_pchar(stack_t **stack, unsigned int line_number)
  * @stack: Linked list for stack.
  * @line_number: Line number opcode occurs on.
  */
-void monty_pstr(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
+void monty_pstr(stack_t **stack,
+		__attribute__ ((unused))unsigned int line_number)
 {
 	stack_t *runner = *stack;
 	int val;
@@ -81,7 +82,8 @@ void monty_pstr(stack_t **stack, __attribute__ ((unused))unsigned int line_numbe
  * @line_number: The index of the current line.
  *
  */
-void monty_rotl(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
+void monty_rotl(stack_t **stack,
+		__attribute__ ((unused))unsigned int line_number)
 {
 	stack_t *runner;
 	int temp1, temp2;
@@ -113,7 +115,8 @@ void monty_rotl(stack_t **stack, __attribute__ ((unused))unsigned int line_numbe
  * @line_number: The index of the current line.
  *
  */
-void monty_rotr(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
+void monty_rotr(stack_t **stack,
+		__attribute__ ((unused))unsigned int line_number)
 {
 	stack_t *runner1, *runner2;
 	int temp1, temp2;

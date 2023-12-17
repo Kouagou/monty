@@ -43,7 +43,8 @@ void monty_push(stack_t **stack, unsigned int line_number)
  * @stack: Pointer to linked list stack.
  * @line_number: Number of line opcode occurs on.
  */
-void monty_pall(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
+void monty_pall(stack_t **stack,
+		__attribute__ ((unused))unsigned int line_number)
 {
 	stack_t *runner = *stack;
 
